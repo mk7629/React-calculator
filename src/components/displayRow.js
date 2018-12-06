@@ -7,8 +7,8 @@ const DisplayRow = (props) => {
         <
         input type = "text"
         readOnly value = { props.value }
-        / > <
-        /div >
+        / > < /
+        div >
     )
 }
 

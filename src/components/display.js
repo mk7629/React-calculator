@@ -8,11 +8,11 @@ const Display = (props) => {
     return ( <
         div className = "display" >
         <
-        DisplayRow value = { props.input }
+        DisplayRow value = { props.question }
         / > <
-        DisplayRow value = { props.output }
-        / > <
-        /div>
+        DisplayRow value = { props.answer }
+        / > < /
+        div >
     );
 }
 
