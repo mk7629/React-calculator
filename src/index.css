@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
 * {
     margin: 0px;
     padding: 0px;
     border-radius: 0px;
     box-sizing: border-box;
     font-size: 110%;
-    background: #f2f2f2
+    background: #f2f2f2;
+    font-family: 'Gloria Hallelujah', cursive
 }
 
 #app {
@@ -13,7 +15,7 @@
 
 .calculator-title {
     font-size: 30px;
-    background: #fff;
+    background: #f2f2f2;
     width: 400px;
     padding: 10px 10px;
     margin: 0 auto;
@@ -40,9 +42,9 @@
     text-align: right;
 }
 
-input[type="button"] {
+button {
     width: 100px;
-    background: #4CAF50;
+    background: #ffad33;
     border: 1px solid #222;
     padding: 10px 20px;
     color: black;
@@ -52,6 +54,16 @@ input[type="button"] {
     font-size: 16px;
 }
 
-input[type="button"]:active {
+button:active {
     background: #ccc;
+}
+
+.jumbo {
+    width: 313px;
+}
+
+#signature {
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
 }
